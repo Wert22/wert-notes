@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Wert notes</title>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="ana">
+            <div id="actions" style="padding: 0px 9px; float: right;">
+                <i class="fas fa-share" id="share" style="color: blue; cursor: pointer;" onclick="shareevent()"></i>
+                <i class="fas fa-trash" id="delete" style="color: rgb(158, 12, 12); cursor: pointer;" onclick="deleteevent()"></i>
+                <i class="fas fa-file" id="save" style="color: green; cursor: pointer;" onclick="saveevent()"></i>
+                <i class="fas fa-minus-square" id="close" style="color: red; cursor: pointer;" onclick="closeevent()"></i>
+            </div>
+            <textarea placeholder="Notes" autofocus="" id="p1" spellcheck="false" style="resize:none"></textarea>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

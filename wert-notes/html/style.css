@@ -1,0 +1,55 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #22436b; 
+    border-radius: 10px;
+}
+
+#ana {
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    height: 33vh;
+    width: 29vh;
+    left: 16vh;
+    color: black;
+    top: 20vh;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(#f6abca 1px, transparent 1px), 
+                      -webkit-linear-gradient(#f6abca 1px, transparent 1px), 
+                      -webkit-linear-gradient(#e8e8e8 1px, transparent 1px);
+    background-image:    -moz-linear-gradient(#f6abca 1px, transparent 1px), 
+                         -moz-linear-gradient(#f6abca 1px, transparent 1px), 
+                         -moz-linear-gradient(#e8e8e8 1px, transparent 1px);
+    background-image:      -o-linear-gradient(#f6abca 1px, transparent 1px), 
+                           -o-linear-gradient(#f6abca 1px, transparent 1px), 
+                           -o-linear-gradient(#e8e8e8 1px, transparent 1px);
+    background-image:         linear-gradient(#f6abca 1px, transparent 1px), 
+                              linear-gradient(#f6abca 1px, transparent 1px), 
+                              linear-gradient(#e8e8e8 1px, transparent 1px);
+    background-size: 1px 1px, 1px 1px, 23px 23px;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-position: 22px 0, 24px 0, 0 50px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 
+                          0 0 4px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 
+                          0 0 4px rgba(0, 0, 0, 0.5);
+                          overflow: auto;
+}
+
+textarea {
+    resize: none;
+    height: 29vh;
+    width: 26vh;
+    background: transparent;
+    outline: none;
+    border: none;
+    position: absolute;
+    font-size: 1.2rem;
+    left: 2vh;
+    top: 2vh;
+}
