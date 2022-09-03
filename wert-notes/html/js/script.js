@@ -62,8 +62,9 @@ function deleteevent() {
 }
 
 function shareevent() {
+    var yazi = document.getElementById("p1").value;
     if (currentId != undefined) {
-        $.post('https://wert-notes/share-note', JSON.stringify({id: currentId}));
+        $.post('https://wert-notes/share-note', JSON.stringify({id: currentId, text: yazi}));
     } else {
         $.post('https://wert-notes/notify', JSON.stringify({notif: "Bu sayfayı paylaşamazsın!"}));
     }
